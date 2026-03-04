@@ -1,7 +1,7 @@
 # 🌐 Richa Reddy Portfolio
 
 🚀 **Live Portfolio**  
-[view Portfolio](https://richarreddy123.github.io/richa-portfolio)
+[View Portfolio](https://richarreddy123.github.io/richa-portfolio)
 
 A modern personal portfolio showcasing my work as a **Java Full Stack Developer** specializing in **Spring Boot, Microservices, REST APIs, and React applications**.
 
