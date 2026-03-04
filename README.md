@@ -5,7 +5,6 @@
 A modern portfolio showcasing my work as a Full Stack Java Developer specializing in Spring Boot, Microservices, REST APIs, and React applications.
 
 # 🚀 **Features**
----
 Modern responsive design  
 Works on desktop, tablet, and mobile  
 Simple and clean UI  
@@ -13,7 +12,6 @@ Project showcase with GitHub links
 Fast and lightweight (HTML/CSS/JavaScript)
 
 # 🛠 **Tech Stack**
----
 Backend
 Java  
 Spring Boot  
@@ -41,7 +39,6 @@ IntelliJ IDEA
 
 
 # 📂 **Projects**
----
 richa-portfolio/
 ├── index.html
 ├── style.css
