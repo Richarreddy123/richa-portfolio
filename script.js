@@ -153,3 +153,7 @@ function renderSkills(skills){
   setupContact(profile);
   render();
 })();
+<<<<<<< HEAD
+=======
+
+>>>>>>> 310cc614a8d4536c0885291e96374ee2806b1296
