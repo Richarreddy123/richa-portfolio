@@ -4,7 +4,8 @@
 
 A modern portfolio showcasing my work as a Full Stack Java Developer specializing in Spring Boot, Microservices, REST APIs, and React applications.
 
-✨ Features
+# 🚀 **Features**
+---
 Modern responsive design  
 Works on desktop, tablet, and mobile  
 Simple and clean UI  
