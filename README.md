@@ -12,7 +12,8 @@ Simple and clean UI
 Project showcase with GitHub links  
 Fast and lightweight (HTML/CSS/JavaScript)
 
-🛠️ Tech Stack
+# 🛠 **Tech Stack**
+---
 Backend
 Java  
 Spring Boot  
@@ -38,7 +39,9 @@ Postman
 Maven  
 IntelliJ IDEA  
 
-📁 Project Structure
+
+# 📂 **Projects**
+---
 richa-portfolio/
 ├── index.html
 ├── style.css
