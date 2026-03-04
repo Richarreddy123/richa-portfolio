@@ -1,0 +1,69 @@
+{
+  "groups": [
+    {
+      "title": "Backend",
+      "items": [
+        "Java",
+        "Spring Boot",
+        "Spring Cloud",
+        "Hibernate",
+        "JPA",
+        "REST APIs",
+        "GraphQL",
+        "gRPC"
+      ]
+    },
+    {
+      "title": "Databases",
+      "items": [
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "Redis",
+        "Cassandra",
+        "DynamoDB",
+        "H2 (Local)"
+      ]
+    },
+    {
+      "title": "Cloud & DevOps",
+      "items": [
+        "AWS",
+        "Docker",
+        "Kubernetes",
+        "Terraform",
+        "Helm",
+        "GitHub Actions",
+        "Jenkins"
+      ]
+    },
+    {
+      "title": "Frontend",
+      "items": [
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Next.js",
+        "Redux"
+      ]
+    },
+    {
+      "title": "Messaging & Patterns",
+      "items": [
+        "Kafka",
+        "Event-driven",
+        "Retries / DLQ",
+        "Outbox Pattern",
+        "Idempotency"
+      ]
+    },
+    {
+      "title": "Testing",
+      "items": [
+        "JUnit",
+        "Mockito",
+        "Cucumber (BDD)"
+      ]
+    }
+  ]
+}

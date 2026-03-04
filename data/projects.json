@@ -1,0 +1,45 @@
+[
+  {
+    "title": "Ecommerce Microservices Platform",
+    "description": "Microservices-based e-commerce backend using Spring Boot, layered architecture (controller/service/repository/entity), and H2 for local development.",
+    "repo": "https://github.com/Richarreddy123/ecommerce-microservices-platform",
+    "live": "",
+    "tags": [
+      "Spring Boot",
+      "Microservices",
+      "JPA",
+      "H2"
+    ]
+  },
+  {
+    "title": "Spring Boot GraphQL API",
+    "description": "GraphQL API built with Spring Boot (GraphQL endpoint + queries). Good starter project to demonstrate schema design and resolvers.",
+    "repo": "https://github.com/Richarreddy123/springboot-graphql-api",
+    "live": "",
+    "tags": [
+      "Spring Boot",
+      "GraphQL"
+    ]
+  },
+  {
+    "title": "Deploy Web Application",
+    "description": "Deployment-focused project showing Git workflows and pushing code to GitHub (useful as a reference for CI/CD learning).",
+    "repo": "https://github.com/Richarreddy123/deploy-web-application",
+    "live": "",
+    "tags": [
+      "Git",
+      "CI/CD"
+    ]
+  },
+  {
+    "title": "Portfolio Website",
+    "description": "Personal portfolio website (HTML/CSS/JS) published using GitHub Pages.",
+    "repo": "https://github.com/Richarreddy123/richa-portfolio",
+    "live": "",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ]
+  }
+]

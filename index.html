@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Richa Reddy Badala • Java Full Stack Developer</title>
+  <meta name="description" content="Portfolio of Richa Reddy Badala — Java Full Stack Developer (Spring Boot, Microservices, React, AWS)." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Top Nav -->
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="#top" aria-label="Go to top">
+        <span class="brand-dot" aria-hidden="true"></span>
+        <span class="brand-text">Richa Reddy Badala</span>
+      </a>
+
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a class="btn btn-sm" href="#contact">Contact</a>
+      </nav>
+
+      <button class="hamburger" id="menuBtn" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="mobile-nav" id="mobileNav" hidden>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <a class="btn" href="assets/Richa-Reddy-Badala-Resume.pdf" download>Download Resume</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Java Full Stack Developer • Microservices • Cloud</p>
+          <h1 class="headline">
+            I build secure, scalable web apps with
+            <span class="accent">Spring Boot</span>, <span class="accent">React</span> and <span class="accent">AWS</span>.
+          </h1>
+
+          <p class="subhead">
+            Full Stack Software Engineer with 5+ years of experience delivering cloud-native applications, APIs,
+            and event-driven microservices. Strong in backend architecture, performance, and reliability.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn" href="#projects">View Projects</a>
+            <a class="btn btn-ghost" href="assets/Richa-Reddy-Badala-Resume.pdf" download>Download Resume</a>
+            <a class="btn btn-ghost" target="_blank" rel="noreferrer" href="https://github.com/Richarreddy123">GitHub</a>
+          </div>
+
+          <div class="hero-meta">
+            <div class="pill">📍 Schaumburg, IL (Open to Remote)</div>
+            <div class="pill">✉️ <a href="mailto:richab952@gmail.com">richab952@gmail.com</a></div>
+            <div class="pill">📞 <a href="tel:+12245921646">(224) 592‑1646</a></div>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="card">
+            <div class="card-top">
+              <div>
+                <p class="card-kicker">Current Focus</p>
+                <h2 class="card-title">E-commerce Microservices</h2>
+              </div>
+              <span class="badge">Spring Boot</span>
+            </div>
+            <p class="card-text">
+              Building a microservices-based platform with clean architecture, REST APIs, persistence, and H2/MySQL support.
+            </p>
+            <ul class="bullets">
+              <li>Service layers (controller/service/repository/entity)</li>
+              <li>JPA + H2 for local development</li>
+              <li>Open to add: Docker, CI/CD, API Gateway</li>
+            </ul>
+            <a class="link" target="_blank" rel="noreferrer" href="https://github.com/Richarreddy123">See on GitHub →</a>
+          </div>
+
+          <div class="mini-grid">
+            <div class="mini">
+              <p class="mini-label">Stack</p>
+              <p class="mini-value">Java • Spring Boot • JPA</p>
+            </div>
+            <div class="mini">
+              <p class="mini-label">Cloud</p>
+              <p class="mini-value">AWS • Docker • K8s</p>
+            </div>
+            <div class="mini">
+              <p class="mini-label">Frontend</p>
+              <p class="mini-value">React • Next.js</p>
+            </div>
+            <div class="mini">
+              <p class="mini-label">Messaging</p>
+              <p class="mini-value">Kafka • Events</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container hero-stats">
+        <div class="stat">
+          <div class="stat-num">5+ yrs</div>
+          <div class="stat-label">Experience</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">Microservices</div>
+          <div class="stat-label">Spring Cloud + Kafka</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">Cloud</div>
+          <div class="stat-label">AWS • Kubernetes</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">APIs</div>
+          <div class="stat-label">REST • GraphQL • gRPC</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head">
+          <h2>About</h2>
+          <p>
+            I enjoy building backend systems that scale — from clean REST APIs to event-driven services, and
+            modern UIs that feel fast. I care about reliability, security, and writing code that's easy to maintain.
+          </p>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3>What I do</h3>
+            <ul class="checklist">
+              <li>Design & build Spring Boot microservices</li>
+              <li>Create REST/GraphQL APIs and integrate databases</li>
+              <li>Implement auth with OAuth2/OIDC + JWT</li>
+              <li>Deploy to cloud with CI/CD, Docker, and Kubernetes</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Highlights</h3>
+            <ul class="bullets">
+              <li>Experience with cloud-native services and serverless patterns</li>
+              <li>Performance tuning, caching, and data consistency patterns</li>
+              <li>Testing with JUnit/Mockito and BDD with Cucumber</li>
+              <li>Observability using logs/metrics/traces</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-head">
+          <h2>Skills</h2>
+          <p>Technology I use most often (based on my recent work and projects).</p>
+        </div>
+
+        <div class="skills" id="skillsGrid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-head">
+          <h2>Experience</h2>
+          <p>Recent roles and responsibilities (summary).</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="card">
+              <div class="row">
+                <h3>Software Engineer (Full Stack)</h3>
+                <span class="muted">Feb 2024 – Present • Shopify</span>
+              </div>
+              <ul class="bullets">
+                <li>Built event-driven microservices and APIs; contributed to platform modernization.</li>
+                <li>Worked on secure flows (OAuth2/OIDC, JWT) and reliability improvements.</li>
+                <li>Implemented GraphQL APIs (Netflix DGS) and Kafka-based messaging patterns.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="card">
+              <div class="row">
+                <h3>Software Engineer</h3>
+                <span class="muted">Prior experience • Java / Spring / Cloud</span>
+              </div>
+              <ul class="bullets">
+                <li>Built scalable REST services, data models, and integrations.</li>
+                <li>Used CI/CD automation and containerization for deployments.</li>
+                <li>Collaborated in Agile teams, code reviews, and production support.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <p class="note">
+          Tip: Replace the “Prior experience” block with your exact previous companies/roles if you want the portfolio to match 1:1.
+        </p>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head">
+          <h2>Projects</h2>
+          <p>Selected GitHub projects. You can edit <code>data/projects.json</code> to add more.</p>
+        </div>
+
+        <div class="toolbar">
+          <input id="searchInput" class="search" placeholder="Search projects…" />
+          <div class="chips" id="tagChips"></div>
+        </div>
+
+        <div class="project-grid" id="projectGrid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-head">
+          <h2>Contact</h2>
+          <p>If you'd like to collaborate or discuss opportunities, reach out.</p>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3>Get in touch</h3>
+            <p class="muted">Fastest way: email.</p>
+            <div class="contact-links">
+              <a class="btn" href="mailto:richab952@gmail.com">Email me</a>
+              <a class="btn btn-ghost" target="_blank" rel="noreferrer" href="https://github.com/Richarreddy123">GitHub</a>
+              <a class="btn btn-ghost" target="_blank" rel="noreferrer" href="#" id="linkedinLink">LinkedIn</a>
+            </div>
+            <p class="note">
+              Update LinkedIn link in <code>data/profile.json</code>.
+            </p>
+          </div>
+
+          <form class="card" id="contactForm">
+            <h3>Message (opens email)</h3>
+            <label>
+              Your name
+              <input name="name" required placeholder="Your name" />
+            </label>
+            <label>
+              Subject
+              <input name="subject" required placeholder="Job opportunity / Collaboration" />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="5" required placeholder="Write your message..."></textarea>
+            </label>
+            <button class="btn" type="submit">Compose Email</button>
+            <p class="muted small">This form opens your email client (no backend needed).</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Richa Reddy Badala</p>
+        <div class="footer-links">
+          <a href="#top">Back to top</a>
+          <a target="_blank" rel="noreferrer" href="https://github.com/Richarreddy123">GitHub</a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
